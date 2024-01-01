@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bukit Barede</title>
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Tentang Kami</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>Galeri</a>
+            </li>
+            
+            <li>
+              <a href="#popular" class="navbar-link" data-nav-link>Berita</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Kontak Kami</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Beli Tiket</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Journey to Bukit Barede</h2>
+
+          <p class="hero-text">
+            Dapatkan pengalaman perjalanan yang tak terlupakan! Pesan tiketmu hari ini dan nikmati momen-momen istimewa di Bukit Barede. Nikmati keindahan Bukit Barede dengan harga terjangkau. Beli tiket online sekarang!
+          </p>
+
+          <div class="btn-group">
+            <a href="#tours" class="navbar-link" data-nav-link>
+            <button class="btn btn-secondary">Beli Tiket</button>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="tour-search" id="tours">
+        <div class="container">
+          <h2 class="h2 section-title">Book Your Ticket Now</h2>
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Nama</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="isi Nama Anda"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Nomor Pelanggan</label>
+
+              <input type="number" name="people" id="people" required placeholder="Jumlah orang" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date**</label>
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Buy now</button>
+
+          
+          </form>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+          <h2 class="h2 section-title">Berita Bukit Barede</h2>
+
+          <p class="section-text">
+            Kami Akan Update Berita Terus Perkembangan Bukit Barede Secara Berkala
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">
+                    <a href="#">Menteri BUMN</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Menteri BUMN Meresmikan Bukit Barede</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">
+                    <a href="#">BUMN</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Menteri BUMN Madang</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card" id="popular">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">
+                    <a href="#">Joko Widodo</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Presiden RI Joko Widodo Berkunjung Bukit Barede</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+          <p class="section-text">
+            Ingin memastikan petualangan Bukit Barede Anda dikenang? Bagikan cerita Anda dengan komunitas kami! Review Anda akan menginspirasi wisatawan lain untuk menjelajahi keindahan alam dan budaya Bukit Barede. Mari ciptakan kenangan bersama dan jadikan Bukit Barede tempat yang tak terlupakan!
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <h2 class="h2 section-title">Ready For Unforgetable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              Bukit Barede, destinasi wisata yang wajib dikunjungi. Beli tiket online sekarang dan dapatkan pengalaman yang tak terlupakan!
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Kontak Kami !</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <h2>Bukit Barede</h2>
+          <p class="footer-text">
+            Bukit Barede, destinasi wisata yang wajib dikunjungi. Beli tiket online sekarang dan dapatkan pengalaman yang tak terlupakan!
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Kontak Kami</h4>
+
+          <p class="contact-text">
+            Jika Ada kendala maupun masalah hubungi kami
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+62 3918273</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">bukit.barede</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Jalan Borobudur No. 17</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="modal" id="subscribe-window">
+      <div class="modal-content" style="flex-direction: row;">
+          <span class="close">&times;</span>
+          <img src="assets/images/gallery-1.jpg" alt="Bukit Barede">
+          <div id="about-subscription">
+              <h2>Ingin Dapatkan Pemberitahuan Khusus Tentang Bukit Barede?</h2>
+              <p>Subscribe emailmu sekarang!</p>
+              <input type="email">
+              <button id="subscribe">Lesgow</button>
+          </div>
+      </div>
+      <div class="modal" id="ad"></div>
+  </div>
+  </footer>
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+<script type='text/javascript'>//<![CDATA[
+  /******************************************
+  * Snow Effect Script- By Altan d.o.o. (http://www.altan.hr/snow/index.html)
+  * Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
+  * Last updated Nov 9th, 05 by DD. This notice must stay intact for use
+  ******************************************/
+  //Configure below to change URL path to the snow image
+  var snowsrc="https://3.bp.blogspot.com/-pKc1eDIK04M/Vyt309Ouy8I/AAAAAAAAFBE/PINv57k6OZM_En7H3msA0syY0fwAnnmPgCLcB/s1600/daun.gif";
+  // Configure below to change number of snow to render
+  var no = 20;
+  // Configure whether snow should disappear after x seconds (0=never):
+  var hidesnowtime = "0";
+  // Configure how much snow should drop down before fading ("windowheight" or "pageheight")
+  var snowdistance = "pageheight";
+  ///////////Stop Config//////////////////////////////////
+     
+       var ie4up = (document.all) ? 1 : 0;
+       var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
+     
+      function iecompattest(){
+      return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+      }
+     
+       var dx, xp, yp;    // coordinate and position variables
+       var am, stx, sty;  // amplitude and step variables
+       var i, doc_width = 800, doc_height = 400; 
+       
+       if (ns6up) {
+      doc_width = self.innerWidth;
+      doc_height = self.innerHeight;
+       } else if (ie4up) {
+      doc_width = iecompattest().clientWidth;
+      doc_height = iecompattest().clientHeight;
+       }
+     
+       dx = new Array();
+       xp = new Array();
+       yp = new Array();
+       am = new Array();
+       stx = new Array();
+       sty = new Array();
+       snowsrc=(snowsrc.indexOf("dynamicdrive.com")!=-1)? "snow.gif" : snowsrc
+       for (i = 0; i < no; ++ i) {  
+      dx[i] = 0;                        // set coordinate variables
+      xp[i] = Math.random()*(doc_width-50);  // set position variables
+      yp[i] = Math.random()*doc_height;
+      am[i] = Math.random()*20;         // set amplitude variables
+      stx[i] = 0.02 + Math.random()/10; // set step variables
+      sty[i] = 0.7 + Math.random();     // set step variables
+       if (ie4up||ns6up) {
+        if (i == 0) {
+       document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://www.ahmadrifai.net\"><img src="+snowsrc+" border=\"0\"><\/a><\/div>");
+        } else {
+       document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src="+snowsrc+" border=\"0\"><\/div>");
+        }
+      }
+       }
+     
+       function snowIE_NS6() {  // IE and NS6 main animation function
+      doc_width = ns6up?window.innerWidth-10 : iecompattest().clientWidth-10;
+       doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4up && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4up && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
+      for (i = 0; i < no; ++ i) {  // iterate for every dot
+        yp[i] += sty[i];
+        if (yp[i] > doc_height-50) {
+       xp[i] = Math.random()*(doc_width-am[i]-30);
+       yp[i] = 0;
+       stx[i] = 0.02 + Math.random()/10;
+       sty[i] = 0.7 + Math.random();
+        }
+        dx[i] += stx[i];
+        document.getElementById("dot"+i).style.top=yp[i]+"px";
+        document.getElementById("dot"+i).style.left=xp[i] + am[i]*Math.sin(dx[i])+"px";  
+      }
+      snowtimer=setTimeout("snowIE_NS6()", 10);
+       }
+     
+      function hidesnow(){
+       if (window.snowtimer) clearTimeout(snowtimer)
+       for (i=0; i<no; i++) document.getElementById("dot"+i).style.visibility="hidden"
+      }
+       
+     
+     if (ie4up||ns6up){
+      snowIE_NS6();
+       if (hidesnowtime>0)
+       setTimeout("hidesnow()", hidesnowtime*1000)
+       }
+  //]]></script>
+</html>
